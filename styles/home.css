@@ -1,0 +1,40 @@
+.home{
+    height: 800px;
+    background-image: url("/images/backgroung.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover,contain;
+   
+}
+
+.home .title{
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    line-height: 140px;
+}
+
+.home .description{
+    font-size: 40px;font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.home .btn{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.home .btn-resume{
+    background-color: purple;
+    padding: 20px 35px;
+    /* width: 450px; */
+    border-radius: 12px;
+    font-size: 45px;
+    color: white;
+    
+}

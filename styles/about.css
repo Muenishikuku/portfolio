@@ -1,0 +1,86 @@
+.about{
+    /* height: 300px; */
+    padding: 10px;
+    
+}
+
+.about .title{
+    color: #43485c;
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.about .content{
+    display: flex;
+}
+
+.about .content .details{
+    width: 60%;
+    padding: 0 40px;
+    line-height: 40px;
+}
+
+
+
+.about .content .details .summary{
+    color: #3c4258;
+    font-weight: 600;    
+    font-size: 30px;
+    
+}
+
+.about .content .details .description{
+    color: #999fb3;    
+    font-size: 24px;
+    
+    
+}
+
+.about .content .details .contacts{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.about .content .details .contacts h5{
+   font-weight: bold;
+   font-size: 1.5em;
+   line-height: 0.9px;
+}
+
+.about .content .socials{
+    width: 40%;
+    background-image: url("/images/profile.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover,contain;
+    /* position: relative; */
+    
+    
+    
+}
+
+.about .content .socials ul{
+    /* position: absolute; */
+    bottom: 0px;
+    /* background-color: #1f2c6c ; */
+    display: flex;
+    list-style: none;
+    width: 100%;
+    font-size: 20em;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+
+}
+
+.about .content .socials ul i{
+    font-size: 45px;
+    color: white;
+    
+}
+    

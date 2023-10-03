@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="styles/profile.css" />
+    <link rel="stylesheet" href="styles/project.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="brand">Mueni</div>
+      <nav>
+        <ul class="links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <!-- <li><a href="http://">Profile</a></li> -->
+          <!-- <li><a href="http://">Project</a></li> -->
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <h1 class="title">
+          Hi, I'm<br />coding <br />
+          expert
+        </h1>
+        <p class="description">Web developer and UI designer</p>
+        <div class="btn">
+          <button type="button" class="btn-resume">Download Resume</button>
+        </div>
+      </section>
+      <section class="about"  id="about">
+        <h2 class="title">ABOUT ME</h2>
+        <div class="content">
+          <div class="details">
+            <p class="summary">
+              I am a Professional UI Designer and Web developer and I would for
+              you to have a glimpse of my journey in this field.Being a
+              developer has been among the best descisions i've made in my life.
+            </p>
+            <p class="description">
+              Welcome to my web developer portfolio! I am a passionate and
+              dedicated web developer with a strong foundation in front-end and
+              back-end technologies. Throughout my career, I have had the
+              privilege of creating dynamic and user-friendly web applications
+              that solve real-world problems.
+            </p>
+            <hr />
+            <ul class="contacts">
+              <li>
+                <h5>Phone</h5>
+                <p>0113854159</p>
+              </li>
+              <li>
+                <h5>Email</h5>
+                <p>charlesmueni2@gmail.com</p>
+              </li>
+              <li>
+                <h5>Website</h5>
+                <p>www.muenishikuku.com</p>
+              </li>
+            </ul>
+          </div>
+          <div class="socials">
+            <ul>
+              <li><a href="http://"><i class='fab fa-facebook-f'></i></a></li>
+              <li><a href="http://"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="http://"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="http://"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>          
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <h3 class="title">skills</h3>
+        <div class="content">
+          <div class="row">
+            <div class="progress">
+              <h5 class="title">HTML 5</h5>
+              <div class="wrapper">
+                <progress value="80" max="100" class="bar"></progress>
+                <h6 class="amount">80%</h6>
+              </div>
+            </div>
+            <div class="progress">
+              <h5 class="title">CSS 3</h5>
+              <div class="wrapper">
+                <progress value="75" max="100" class="bar"></progress>
+                <h6 class="amount">75%</h6>
+              </div>
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="progress">
+                <h5 class="title">JS</h5>
+                <div class="wrapper">
+                  <progress value="20" max="100" class="bar"></progress>
+                  <h6 class="amount">20%</h6>
+                </div>
+              </div>
+              <div class="progress">
+                <h5 class="title">GIT</h5>
+                <div class="wrapper">
+                  <progress value="80" max="100" class="bar"></progress>
+                  <h6 class="amount">80%</h6>
+                </div>
+                  
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="profile"></section> -->
+      <!-- <section class="project"></section> -->
+      <section class="contacts" id="contacts">`
+        <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>
